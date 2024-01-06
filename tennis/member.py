@@ -28,6 +28,7 @@ try:
     VALUES (%s, %s, %s, %s, %s, %s, %s);
     """
     player_data = (1, '太田啓夢', 20, 2, 'M', '情報理工', '副会長')
+    player_data = (2, '田中寒人', 20, 3, 'M', 'スポーツ健康', '会長')
 
     # SQLコマンドの実行
     cur.execute(insert_query, player_data)
